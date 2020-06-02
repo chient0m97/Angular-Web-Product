@@ -1,0 +1,223 @@
+<div class="container">
+    <div class="header">
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <div class="row pt-3">
+            <div class="col-md-3 mb-3">
+                <a href="/home">
+                    <img src="assets/images/logo.png">
+                </a>
+            </div>
+            <div class="col-md-9">
+                <div class="d-flex">
+                    <div class="text-left d-flex">
+                        <span class="mr-3">
+                            <img src="assets/images/viman.png">
+                        </span>
+                        <span class="text-success">
+                            <strong class="header__strong__position">GIAO HÀNG MIỄN PHÍ</strong>
+                            <p>VỚI HÓA ĐƠN TRÊN 500.000 VND</p>
+                        </span>
+                    </div>
+                    <div class="ml-auto">
+                        <div class="text-right">
+                            <i class="fa fa-phone-square mr-1 header__icon--color" aria-hidden="true"></i><span
+                                class="header__span--color">0982 180 180</span>
+                        </div>
+                        <p>CHÀO MỪNG BẠN ĐẾN VỚI STELLA BEAUTY !</p>
+                    </div>
+                </div>
+                <div style="padding-top: 4px; padding-left: 3px; margin-bottom: 7px;" class="header__form--props mt-3">
+                    <div class="px-3 py-2 d-flex ">
+                        <div class="btn-group">
+                            <button class="dropdown-toggle block-select" data-toggle="dropdown">
+                                <span class="pr-1">Tất cả sản phẩm</span>
+                            </button>
+                            <div class="dropdown-menu pt-0 pb-0">
+                                <li>
+                                    <a href="product" class="dropdown-menu-a">Tất cả sản phẩm</a>
+                                </li>
+                                <li>
+                                    <a href="product" class="dropdown-menu-a">Trang điểm</a></li>
+                                <li>
+                                    <a href="product" class="dropdown-menu-a" href="/perfume">Nước hoa</a></li>
+                                <li>
+                                    <a href="product" class="dropdown-menu-a">Chăm sóc da mặt</a></li>
+                                <li>
+                                    <a href="product" class="dropdown-menu-a">Dưỡng da</a></li>
+                                <li>
+                                    <a href="product" class="dropdown-menu-a">Dành cho nam</a></li>
+                                <li>
+                                    <a href="product" class="dropdown-menu-a">Chăm sóc tóc</a></li>
+                                <li>
+                                    <a href="product" class="dropdown-menu-a">Chăm sóc móng</a></li>
+                                <li>
+                                    <a href="product" class="dropdown-menu-a">Trang điểm</a></li>
+                                <li>
+                                    <a href="product" class="dropdown-menu-a">Phụ kiện nữ</a></li>
+                                <li>
+                                    <a href="product" class="dropdown-menu-a">Tinh dầu & spa</a></li>
+                                <li>
+                            </div>
+                        </div>
+                        <div class="px-3 w-100">
+                            <div class="input-group mb-3">
+                                <input
+                                    style="height: 30px;outline: 0;box-shadow: none;font-family: Roboto;font-size: 14px; border:0px"
+                                    type="text" class="form-control" placeholder="Tìm kiếm">
+                                <div class="input-group-prepend">
+                                    <span
+                                        style="background-color: #fff;border:0px; border-left: 2px solid #efefef; color: #707070;border-radius: 0px 4px 4px 0px"
+                                        class="input-group-text" id="basic-addon1">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="mt-2">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar__wrapper" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a routerLink='/' class="nav__link--padding nav__link--border">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a routerLink='/about' class="nav__link--padding nav__link--border">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a routerLink='/product' class="nav__link--padding nav__link--border">SẢN PHẨM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a routerLink='/news' class="nav__link--padding nav__link--border">TIN TỨC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a routerLink='/contact' class="nav__link--padding">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- =-=-=-=-=-=-=-=-Content-=-=-=-=-=-=-=-=- -->
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
+    <!-- =-=-=-=-=-=-=-=-=-=-=-Content-=-=-=-=-=-=-=-=-= -->
+    <div class="footer">
+        <div class="col-xl-12 Rectangle">
+            <div class="container block ">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <img src="assets/icons/Path 94@2x.png">
+                                <span class="">MIỄN PHÍ VẬN CHUYỂN</span>
+                                <p>Cho đơn đặt hàng trên 2 triệu VNĐ</p>
+                            </div>
+                            <div class="col-xl-6">
+                                <img src="assets/icons/settings@2x.png">
+                                <span>HOÀN 100 TIỀN MUA HÀNG </span>
+                                <p class="design">Trong vòng 7 ngày</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <img src="assets/icons/ic_call_24px@2x.png">
+                                <span class="">ĐẶT HÀNG TRỰC TUYẾN</span>
+                                <p></p>
+                            </div>
+                            <div class="col-xl-6">
+                                <img src="assets/icons/ic_call_24px@2x.png">
+                                <span>HOTLINE: 0962180180</span>
+                                <p class="design">Hỗ trợ trực tuyến</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="footer--title footer--title--top">
+                            <p>Địa chỉ</p>
+                            <div class="footer--top">
+                                <img src="assets/icons/ic_location_on_24px@2x.png" width="13px" height="17px">
+                                <p class="footer__contact">Tầng 2, số 42, ngõ 178, Thái Hà, Đống Đa, Trung Liệt, Hà Nội.
+                                </p>
+                                <img src="assets/icons/ic_call_-1@2x.png" width="13px" height="15px">
+                                <p class="footer__contact">0962 180 180</p>
+                                <img src="assets/icons/ic_markunread_24px@2x.png" width="13px" height="10px">
+                                <p class="footer__contact">info@vmms.vn</p>
+                            </div>
+                            <div style="padding-top: 50px" class=" footer--title mt-0">
+                                Nhận tin
+                                <p class="footer__email">Đăng kí qua email để nhận tin tức mới nhất từ chúng tôi!</p>
+                                <input class="footer__input" type="text" name="email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="footer--title footer--title--top">Tin mới
+                            <div class="col-xl-12 pl-0">
+                                <div class="pt-3">
+                                    <div class="row">
+                                        <div class="col-xl-2">
+                                            <div class="footer--Rectangle left">
+                                                <p class="footer--Rectangle--number">12</p>
+                                                <p class="footer--Rectangle--nov">NOV</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10 pl-0">
+                                            <div>
+                                                <p class="footer__contact__new_title">Kem đặc trị mụn bọc, mụn mủ, mụn
+                                                    đầu đen thảo dược Mẹ Ken</p>
+                                                <p class="footer__contact_new">Hoàn toàn thiên nhiên an toàn tuyệt đối
+                                                    cho phụ nữ có thai và cho con bú. Hoàn toàn thiên nhiên an toàn
+                                                    tuyệt đối cho phụ nữ có thai và cho con bú</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pt-3">
+                                    <div class="row">
+                                        <div class="col-xl-2">
+                                            <div class="footer--Rectangle left">
+                                                <p class="footer--Rectangle--number">12</p>
+                                                <p class="footer--Rectangle--nov">NOV</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10 pl-0">
+                                            <div>
+                                                <p class="footer__contact__new_title">Kem đặc trị mụn bọc, mụn mủ, mụn
+                                                    đầu đen thảo dược Mẹ Ken</p>
+                                                <p class="footer__contact_new">Hoàn toàn thiên nhiên an toàn tuyệt đối
+                                                    cho phụ nữ có thai và cho con bú. Hoàn toàn thiên nhiên an toàn
+                                                    tuyệt đối cho phụ nữ có thai và cho con bú</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer--brick"></div>
+        <div class="footer-copyright">
+            <p class="text-center">@2019 Stella Beauty - Design By VMMS:</p>
+        </div>
+    </div>
+</div>
