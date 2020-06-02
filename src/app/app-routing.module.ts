@@ -13,7 +13,11 @@ const appRoutes: Routes = [
       {
         path: '',
         component: HomepageComponent
-      }
+      },
+      // {
+      //   path: 'about',
+      //   component: AboutComponent
+      // }
     ],
     // canActivate: [AuthGuardService]
   },
