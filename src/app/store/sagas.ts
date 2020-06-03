@@ -1,3 +1,7 @@
+import About from '../components/about/about.saga';
+import Products from '../components/products/products.saga';
+import News from '../components/news/news.saga';
+import Contacts from '../components/contacts/contacts.saga';
 import { takeEvery, fork, all } from 'redux-saga/effects';
 import main from '../components/main.saga';
 import auth from '../components/auth/auth.saga';
@@ -18,5 +22,5 @@ function* watchApiCallError() {
 }
 
 export default function* sagas() {
-  yield all([...main, ...auth, ...Homepage, watchApiCallError].map(item => fork(item)));
+  yield all([...About, ...Products, ...News, ...Contacts, ...main, ...auth, ...Homepage, watchApiCallError].map(item => fork(item)));
 }

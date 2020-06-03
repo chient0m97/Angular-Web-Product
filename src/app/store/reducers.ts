@@ -1,3 +1,7 @@
+import { About } from '../components/about/about.reducer';
+import { Products } from '../components/products/products.reducer';
+import { News } from '../components/news/news.reducer';
+import { Contacts } from '../components/contacts/contacts.reducer';
 import * as _ from 'lodash';
 import { combineReducers } from 'redux';
 import { Auth } from '../components/auth/auth.reducer';
@@ -37,7 +41,7 @@ const RootReducer = (state = { config: environment, isShowBtnSettings: false }, 
   }
 };
 
-export default combineReducers({
+export default combineReducers({About, Products, News, Contacts, 
   Auth,
   Homepage,
   RootReducer

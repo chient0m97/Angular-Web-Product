@@ -4,6 +4,10 @@ import { Routes, RouterModule } from '@angular/router';
 // import { AuthGuardService } from './auth/auth-guard.service';
 // import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { AboutComponent } from './components/about/about.component';
+import { ProductsComponent } from './components/products/products.component';
+import { NewsComponent } from './components/news/news.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 const appRoutes: Routes = [
   {
@@ -14,10 +18,22 @@ const appRoutes: Routes = [
         path: '',
         component: HomepageComponent
       },
-      // {
-      //   path: 'about',
-      //   component: AboutComponent
-      // }
+      {
+        path: 'about',
+        component: AboutComponent
+      },
+      {
+        path: 'products',
+        component: ProductsComponent
+      },
+      {
+        path: 'news',
+        component: NewsComponent
+      },
+      {
+        path:'contacts',
+        component: ContactsComponent
+      }
     ],
     // canActivate: [AuthGuardService]
   },

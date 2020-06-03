@@ -14,7 +14,7 @@
         .nav-item {
             padding-right: 10px !important;
             a{
-                font-size: 14px;
+                font-size: $font_size;
                 &:hover,&:active,&:focus{
                     color: #25aef5 !important;
                     text-decoration: none;      
@@ -283,7 +283,7 @@
 
 .footer--Rectangle {
 	background-color: #393d49;
-	.footer--nov {
+	.footer--Rectangle--nov {
 		font-family: $font_family;
 		font-size: 24px;
 		font-weight: bold;
@@ -293,7 +293,7 @@
 		margin: 0px 13px 8px 14px;
 	}
 
-	.footer--number {
+	.footer--Rectangle--number {
 		font-family: $font_family;
 		font-size: 30px;
 		font-weight: bold;
