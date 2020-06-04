@@ -17,9 +17,14 @@ import { DropdownMenuComponent } from './homepage/dropdown-menu/dropdown-menu.co
 import { DroprightMenuComponent } from './homepage/dropright-menu/dropright-menu.component';
 import { DropdownMenuDetailComponent } from './homepage/dropdown-menu/dropdown-menu-detail/dropdown-menu-detail.component';
 import { DroprightMenuDetailComponent } from './homepage/dropright-menu/dropright-menu-detail/dropright-menu-detail.component';
+import { ProductsPerfumeComponent } from './products/products-perfume/products-perfume.component';
+import { DetailProductsComponent } from './products/detail-products/detail-products.component';
+import { ListProductsComponent } from './products/list-products/list-products.component';
+import { DetailNewsComponent } from './news/detail-news/detail-news.component';
+import { ListNewsComponent } from './news/list-news/list-news.component';
 
 @NgModule({
-  declarations: [AboutComponent, ProductsComponent, NewsComponent, ContactsComponent, PageNotFoundComponent, MainComponent, HomepageComponent, BaseComponent, DropdownMenuComponent, DroprightMenuComponent, DropdownMenuDetailComponent, DroprightMenuDetailComponent],
+  declarations: [AboutComponent, ProductsComponent, NewsComponent, ContactsComponent, PageNotFoundComponent, MainComponent, HomepageComponent, BaseComponent, DropdownMenuComponent, DroprightMenuComponent, DropdownMenuDetailComponent, DroprightMenuDetailComponent, ProductsPerfumeComponent, DetailProductsComponent, ListProductsComponent, DetailNewsComponent, ListNewsComponent],
   imports: [CommonModule, RouterModule, FormsModule, BrowserAnimationsModule, DirectivesModule, PipesModule],
   providers: [],
   exports: []

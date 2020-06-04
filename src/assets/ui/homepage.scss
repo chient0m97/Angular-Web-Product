@@ -157,7 +157,7 @@
           }
       }
       .selling__products__p--font {
-          font-weight: 500px;
+          font-weight: bold;
           &:hover {
               color: #fe72a3
           }
@@ -167,13 +167,13 @@
       }
   }
   .img__selling__product {
-      object-fit: cover !important;
       width: 100%;
-      background-size: cover !important;
+      background-size: cover;
+      background-repeat: no-repeat;
   }
-  .div__img {}
   .img__banner__product {
-      height: 321px;
+      background-size: cover;
+      background-repeat: no-repeat;
       width: 100%;
   }
   .new__product {
@@ -209,6 +209,8 @@
           right: 10px;
       }
       img {
+          background-size: cover;
+          background-repeat: no-repeat;
           width: 100%;
       }
       .selling__perfume__p--props {

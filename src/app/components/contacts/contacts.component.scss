@@ -1,0 +1,37 @@
+@import '../../../assets/ui/font.scss';
+@import '../../../assets/ui/color.scss';
+.content__contact {
+    font-size: $font_size;
+    font-family: $font_family;
+    .title__new {
+        background-color: #fe72a3;
+        p {
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+        }
+    }
+    .contact__input {
+        width: 100%;
+        padding: 5px 20px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: #efefef;
+    }
+    .contact__textarea {
+        height: 200px
+    }
+    button {
+        background-color: #fe72a3;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 38px;
+    }
+    .content__contact__map {
+        width: 100%
+    }
+}
