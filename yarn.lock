@@ -1167,10 +1167,6 @@ ajv@~6.4.0:
     json-schema-traverse "^0.3.0"
     uri-js "^3.0.2"
 
-almond@~0.3.1:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/almond/-/almond-0.3.3.tgz#a0e7c95ac7624d6417b4494b1e68bff693168a20"
-
 amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
@@ -4848,10 +4844,6 @@ jasminewd2@^2.1.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/jasminewd2/-/jasminewd2-2.2.0.tgz#e37cf0b17f199cce23bea71b2039395246b4ec4e"
 
-jquery-mousewheel@~3.1.13:
-  version "3.1.13"
-  resolved "https://registry.yarnpkg.com/jquery-mousewheel/-/jquery-mousewheel-3.1.13.tgz#06f0335f16e353a695e7206bf50503cb523a6ee5"
-
 jquery@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
@@ -7394,11 +7386,9 @@ select-hose@^2.0.0:
   resolved "https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
 
 select2@~4.0:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/select2/-/select2-4.0.5.tgz#7aac50692561985b34d3b82ec55e226f8960d40a"
-  dependencies:
-    almond "~0.3.1"
-    jquery-mousewheel "~3.1.13"
+  version "4.0.13"
+  resolved "https://registry.yarnpkg.com/select2/-/select2-4.0.13.tgz#0dbe377df3f96167c4c1626033e924372d8ef44d"
+  integrity sha512-1JeB87s6oN/TDxQQYCvS5EFoQyvV6eYMZZ0AeA4tdFDYWN3BAGZ8npr17UBFddU0lgAt3H0yjX3X6/ekOj1yjw==
 
 selenium-webdriver@3.6.0, selenium-webdriver@^3.0.1:
   version "3.6.0"
